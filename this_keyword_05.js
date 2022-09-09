@@ -45,3 +45,22 @@ function myFunction() {
 }
 
 console.log(myFunction());
+
+// Function binding
+// The call() and apply() methods are predefined JS methods
+// They can be both used to call an object method with another
+// object as argument
+
+const customer = {
+    fullName: function(){
+        return this.firstName + " " + this.lastName;
+    }
+};
+
+const customer_1 = {
+    firstName: 'Sara',
+    lastName: 'Smith'
+}
+
+const test = customer.fullName.call(customer_1);
+console.log(test);
