@@ -1,7 +1,7 @@
 // Global Scope
-// var a = 1;
-// var b = 2;
-// const c = 3;
+var a = 1;
+let b = 2;
+const c = 3;
 
 // Function Scope
 // function test(){
@@ -29,4 +29,4 @@ if(true){
 
 
 
-// console.log('Global scope: ', a, b, c);
+console.log('Global scope: ', a, b, c);

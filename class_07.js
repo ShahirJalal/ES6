@@ -17,13 +17,13 @@
 // }
 
 // This class has two initial properties
-class Student{
-    constructor(name, age){
-        this.name = name;
-        this.age = age;
+// class Student{
+//     constructor(name, age){
+//         this.name = name;
+//         this.age = age;
 
-    }
-}
+//     }
+// }
 
 // We can use classes to create objects
 // const student_1 = new Student('Sara', 22);

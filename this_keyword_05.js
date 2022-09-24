@@ -37,7 +37,8 @@ const x = this;
 console.log(x);
 
 // This in the function
-// In JS function, the owner of the function is the default binding for this
+// In JS function, the owner of the function 
+// is the default binding for this
 // It means this refers to the global object
 
 function myFunction() {
